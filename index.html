@@ -1,78 +1,17 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>动次打次</title>
-    <link rel="stylesheet" type="text/css" href="css/login.css">
-<script type="text/javascript" src="Login.js"></script>
-</head>
-<body>
-<script java="text/javascript">
-    function checkSign(){
+---
+layout: main
+---
 
-    }
-</script>
-
-<!--<div class="login-page">
-    <div class="form">
-        <form class="register-form">
-            <input type="text" placeholder="name"/>
-            <input type="password" placeholder="password"/>
-            <input type="text" placeholder="email address"/>
-            <button>create</button>
-            <p class="message">Already registered? <a href="#">Sign In</a></p>
-        </form>
-        <form class="login-form">
-            <input type="text" placeholder="username"/>
-            <input type="password" placeholder="password"/>
-            <button>login</button>
-            <p class="message">Not registered? <a href="#">Create an account</a></p>
-        </form>
+{% for post in paginator.posts %}
+  <div class="chapter">
+    <a href="{{post.url | prepend: site.baseurl}}">
+      {% if post.img %}
+      <img src={{ "/assets/img/" | prepend: site.baseurl | append: post.img }} alt="{{post.title}}">
+      {% endif %}
+    </a>
+    <div class="chapter_inner">
+      <p class="chapter_number">{{post.date | date: '%Y, %b %d'}}</p>
+      <h3 class="chapter_title">{{post.title}}</h3>
     </div>
-</div>-->
-<div class="body" ></div>
-<div class="login_page">
-    <div id="header">
-        <img class="logo" src="images/logo.jpg"/>
-        <a href="register.dlg"></a><h5 >Register</h5>
-    </div>
-    <div class="content_head">Dong ci<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span>Boom</span></div>
-    <div class="login1">
-   <form class="login-form" name="myform">
-            <span>Username</span><input type="text" name="username" placeholder="input your name.." onfocus="Onfocus()"
-            onblur="Onblur()"/><br>
-            <span>Password</span><input type="password" name="password" placeholder="input you password.." onfocus="Onfocus" onblur=
-                "Onblur()"  /><a  id="aa" href="https://www.baidu.com">Forget?</a>
-        <br/><br/>
-       <button  onclick="checkform()">Sign In
-       </button>
-            <br/>
-
-           <!-- <a href="#" onclick="checkSign()" class="regis_text">Log in with Email..</a>
-
-            <div class="row"><div class="hide-visually "><label required="required" placeholder="Password"
-                    class="form-forgot-password" for="user_password">Password</label></div><div class="login-form-input
-                     small-13 small-centered columns"><a required="required" placeholder="Password" object="#&lt;
-                     User:0x007f90f54e4f48&gt;" class="form-forgot-password" href="/recover/new">Forgot?</a>
-                <input required="required" placeholder="Password" class="login-form-field" tabindex="1" type="password"
-                       name="user[password]" id="user_password" /></div></div>-->
-
-
-
-   </form></div>
-
-    <!--  <div>
-    form
-       header Login
-       label Username <span>*</span>
-       input
-       .help At least 6 character
-       label Password <span>*</span>
-       input
-       .help Use upper and lowercase lettes as well
-       button Login
-   </div>-->
-
-</div>
-</body>
-</html>
+  </div>
+{% endfor %}
