@@ -1,0 +1,29 @@
+---
+layout: post
+title: "My first Blog"
+img: sweden.jpg # Add image post (optional)
+date: 2017-10-25 12:52:00 +0300
+description: You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. # Add post description (optional)
+tag: [Sweden, Travel, Forest]
+---
+
+camel标记法
+jquery不包含色彩动画
+There is no place like 127.0.0.1
+这些就是本我和自我的关系
+我们每个人都能叫“我”，就是每台机器都是127.0.0.1
+但是我们每个人都有自己的特征来确定“独一的我”，就是IP
+
+hosts
+内网ip
+外网ip
+本机地址  环回地址
+
+html容错机制
+html解析
+html css js 解析顺序过程
+you calls library
+framework calls you
+
+![](~/TIM图片20170509184655.jpg)
+
