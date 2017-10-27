@@ -1,8 +1,5 @@
-logo: # add logo name
-
+logo: title.ico # add logo name
 title: 啵啵的随笔小栈
-
-
 
 description: > # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
@@ -22,13 +19,13 @@ author-pic: face.jpg # your photo
 author-name: # your name
 about-author: # about author
 email: 979828958@qq.com # your email
-、
+
 phone: 158******36 # your pnone number
 website: https://www.kj-fmc.com # you website
-、
+
 phone: 158-****-**36 # your pnone number
 website: https://www.frenkiss.site # you website
-、
+>>>>>>> 260859f04fca28a01b14835a08aa89c19cfc20d1
 
 # Social link
 google_url:    # add url link
