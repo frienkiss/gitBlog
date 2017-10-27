@@ -193,7 +193,7 @@ $(function() {
 	w.load("<ul>");
 
 	w.load("<li class='writecode'>暑期实习期间完善的公司网站前端：<a href='http://www.kj-fmc.com' target='_blank'>www.kj-fmc.com</a></li>");
-    w.load("<li class='writecode'>仿小米首页：<a href='http://www.frenkiss.site/mi_index.html' target='_blank'>www.frenkiss.site</a></li>");
+    w.load("<li class='writecode'>仿小米首页：<a href='http://www.frenkiss.site/xiaomi/mi_index.html' target='_blank'>www.frenkiss.site</a></li>");
     w.load("<li class='writecode'> github存放了平时写的一些小东西</li>");
     w.load("<li class='writecode'> 也希望加入贵公司参与更多的项目，增加开发经历</li>");
 	w.load("</ul>");
