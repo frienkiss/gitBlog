@@ -1,12 +1,11 @@
 ---
 layout: post
-title: Js原型对象
-img: nevada.jpg # Add image post (optional)
-date: 2017-07-11 12:50:00 +0300
-description:Js原型对象学习，联系java面向对象，两者虽然五关，但编程思想的区别需要注意  # Add post description (optional)
-tag: [JavaScript,prototype]
+title: "Js原型对象"
+img: canyon.jpg # Add image post (optional)
+date: 2017-07-14 12:54:00 +0300
+description: Js原型对象学习，联系java面向对象，两者虽然五关，但编程思想的区别需要注意. # Add post description (optional)
+tag: [Travel, Texas, Canyon]
 ---
-
 学习js原型对象时总想跟java类进行比较，可能因为当初java给人最大的印象就是面向对象编程了。当然其实这俩语言是真的没关系，不过你非要说所有编程语言都有着那一丝丝的联系我也没招。
 java因为类的存在，是基于模板的面向对象，类肯定是不能当方法来运行的，调用其内部静态方法或继承父类方法。
 
