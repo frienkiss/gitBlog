@@ -1,0 +1,1032 @@
+
+
+/*怎么给某行做标记啊*/
+
+body{
+    font:14px/1.5 "Helvetica Neue",Helvetica,Arial,"Microsoft Yahei","Hiragino Sans GB","Heiti SC","WenQuanYi Micro Hei",sans-serif;
+    width: 1368px;
+   /*height:2000px;*/
+    /*overflow: hidden;*/
+    overflow-x: hidden;
+    margin-right:auto;
+    margin-left:auto;
+}
+.clear-body{
+    clear:both;
+}
+.site-ban{
+    background-image: url("../images/banner.jpg");
+    background-repeat: no-repeat;
+    background-position: center 0;
+    width: 100%;
+    height: 120px;
+}
+.top{
+    background-color: rgb(51,51,51);
+    height: 40px;
+    position:relative;
+    font-size:13px;
+
+}
+
+.container{
+    width: 1200px;
+    margin-left:auto;
+    margin-right:auto;
+
+}
+.con-left{
+    height:40px;
+    float:left;
+    overflow: hidden;
+}
+.con-left .a-em{
+    margin:0 10px;
+}
+.con-left a,.con-right a,.con-center a{
+    color:#b0b0b0;
+    line-height: 40px;
+}
+.con-left a:hover,.con-right a:hover,.con-center a:hover{
+    color: rgba(255,254,228,0.88);
+}
+.con-right{
+    position:relative;
+    float:right;
+    height:40px;
+    margin-left:15px;
+
+}
+
+.con-center{
+    position: relative;
+    float: right;
+}
+.con-center .a-em{
+    margin:0 12px;
+}
+.mi-header{
+    height: 100px;
+    position:relative;
+    z-index:20;
+}
+.mi-header .header-con{
+    position:relative;
+}
+.header-con{
+    width:1226px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.logo{
+    width:62px;
+    margin-top:12px;
+    float: left;
+}
+.mi-header .header-con .logo .logo-a{
+    background-image: url("../images/logo.png");/*图片的position定位与一般定位好像不同？？*/
+    height: 56px;
+    width:56px;
+    float: left;
+
+    margin-top:20px;
+    margin-left:4px;
+}
+
+.head-nav{
+    width:850px;
+    float: left;
+}
+
+.head-nav .nav-list{
+    position:relative;
+    width:820px;
+    height:88px;
+    float: left;
+
+    z-index:10;
+    margin:0;
+    padding:8px 0 0 30px;
+    list-style-type: none;
+}
+.head-nav .head-container{
+    position:relative;
+    width:127px;
+    float: left;
+    padding-right: 15px;
+
+}
+.head-container-a{
+    display: block;
+    padding:26px 0 30px;
+    text-align: right;
+}
+.head-nav .nav-list .nav-item .item-a{
+    display: block;
+    padding:40px 10px 38px;
+    /*color:#333;*/
+    /*此属性存在时为什么hover的颜色效果显示不了*/
+}
+.head-nav .nav-list .nav-item{
+    float:left;
+
+}
+.head-search{
+    width:296px;
+    float:right;
+    margin-top:30px;
+}
+.search-form{
+    position:relative;
+    width:296px;
+    height: 50px;
+}
+.search-form .form-sea{
+    position: absolute;
+    top:0;
+    right:50px;
+
+    width:223px;
+    height: 48px;
+    line-height:48px;
+    z-index: 1;
+    border: 1px solid #e0e0e0;
+    font-size: 16px;
+    outline:0;
+}
+/*.search-form .form-sea:hover{*/
+    /*border-color:rgba(255,97,20,0.96);*/
+/*}*/
+.search-form .form-sub{
+    position: absolute;
+    top:0;
+    right:0;
+
+    width:52px;
+    height: 48px;
+    line-height:48px;
+    z-index: 2;
+    border: 1px solid #e0e0e0;
+    outline:0;
+    background-color: #fff;
+}
+
+.mi-container{
+    position:relative;
+    margin-bottom: 15px;
+     /*min-height: 400px;  设置父元素自适应子元素宽高inline-block 或float  clear: both??*/
+    /*display: inline-block;*/
+
+
+}
+.clear{
+    clear:both;
+}
+.body-left{
+    position: absolute;
+    top:100px;
+    left:-92px;
+    width:234px;
+    height:460px;
+
+    font-size: 14px;
+    z-index: 44;
+}
+.body-left .span-nav{
+    height: 420px;
+    border: 0;
+    color: #fff;
+    padding:20px 0;
+    background-color: rgba(81,73,64,0.77);
+}
+.span-nav .item-a{
+    position: relative;
+    margin-left: 32px;
+
+}
+.body-left .span-nav > li:hover{/*     >   直接后代元素*/
+    background-color: rgba(255,148,22,0.77);
+}
+
+.span-more,.span-more2,.span-more3,.span-more4,.span-more5{
+    display: none;
+    width:750px;
+    position:absolute;/*absolute相对于父元素？？但是为什么夏颖那个设置后是相对于浏览器窗口*/
+    top:0;
+    left:234px;
+    height:460px;
+    background-color:#fff;
+    border:1px solid #e0e0e0;
+}
+.span-more6,.span-more7,.span-more8,.span-more9,.span-more10{
+    display: none;
+    width:250px;
+    position:absolute;/*absolute相对于父元素？？但是为什么夏颖那个设置后是相对于浏览器窗口*/
+    top:0;
+    left:234px;/*这行注释掉，会导致此div覆盖其父li*/
+    height:460px;
+    background-color:#fff;
+    border:1px solid #e0e0e0;
+}
+/*考虑下用更简洁的写法，加个隔代选择器*/
+.span-more .more-list,.span-more2 .more-list,.span-more3 .more-list,.span-more4 .more-list,.span-more5 .more-list,.span-more6 .more-list,.span-more7 .more-list,.span-more8 .more-list,.span-more9 .more-list,.span-more10 .more-list{
+    list-style-type: none;
+    width:200px;
+    height: 460px;/*一定要在这再写一遍height，不然ul不会自动和div的高度一样*/
+    float:left;
+}
+
+.span-nav .more-list li{/*直接写.morelist li 会被下面的.span-nav li 的样式覆盖      css后代选择器？？？*/
+    height:75px;
+    /*line-height: 75px;*/
+    color: black;
+    margin-top: 16px;
+
+
+}
+
+.more-list img{
+    margin-right: 12px;
+    vertical-align: middle;/*使旁边的文字居中？？*/
+    width:40px;
+    height: 40px;
+}
+.more-list span{
+
+    line-height: 40px;
+}
+.span-nav  .more-list li a:hover{
+    color:rgba(238,128,16,0.98)
+}
+.span-nav li{
+    height: 42px;
+    list-style-type: none;
+    line-height: 42px;
+}
+.ico{
+    position: absolute;
+    top:12px;
+    color: #333;
+    right: 20px;
+    line-height: 16px;
+
+}
+.mi-container{
+    width:1226px;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top: 8px;
+}
+.ban-list{
+    /*position:relative;*/
+    list-style-type: none;
+}
+.ban-list li{
+    display: none;
+    position: absolute;
+    top: -6px;
+    left:0;
+
+}
+#ban-list-4{
+    display: block;
+}
+#list-con-1{
+    margin-left:36px;
+}
+.container-ban{
+    /*position: relative;*/
+    width:1226px;
+    height: 466px;
+
+}
+.container-list{
+    width:1226px;
+    height:167px;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top: 8px;
+}
+.list-left{
+    width: 234px;
+    height:167px;
+    float: left;
+}
+.list-left .span{
+    /*position: absolute;*/
+    height:167px;
+    margin:0;
+    padding:3px;
+    font-size: 13px;
+    background-color: #5f5750;
+}
+.list-left .span li{
+    position: relative;
+    left:6px;
+    float: left;
+    width: 66px;
+    height: 82px;
+    padding: 0 5px;
+    list-style-type: none;
+}
+.list-left .span .nav-item a{
+    color:rgba(185,184,165,0.98)
+}
+.list-left .span .nav-item a:hover{
+    color:#fff;
+}
+.list-con ul{
+    margin:0;
+    padding:0;
+    list-style-type: none;
+}
+.list-con ul li{
+    float: left;
+    width:308px;//img不设置300时候他，图片会扩充到315px
+    height: 170px;
+    /*margin-left:15px;*/
+    margin-left:15px;
+}
+.list-con ul li img{
+    display: block;
+    width:310px;
+    height:170px;
+
+}
+/*.mi-star{*/
+     /*display: block;*/
+ /*}*/
+/*.mi-star2{*/
+    /*position:absolute;*/
+    /*top:0;*/
+/*}*/
+.star-con{
+    width:1226px;
+    height: 360px;
+    /*margin-left:auto;*/
+    /*margin-right:auto;*/
+
+}
+.star-con .star-top{
+    font-size: 22px;
+    font-weight:200;
+    line-height: 58px;
+    margin:0;
+
+}
+.star-con .star-list{
+    list-style-type: none;
+    padding-left:0;
+    /*background-color: rgba(185,184,165,0.93)*/
+
+}
+/*.star-list li{*/
+    /*margin-right:11px;*/
+    /*width:234px;*/
+    /*height:340px;*/
+    /*float: left;*/
+    /*background-color: #fafafa;*/
+
+/*}*/
+.star-li1,.star-li2,.star-li3,.star-li4{
+    margin-right:11px;
+    width:234px;
+    height:340px;
+    float: left;
+    background-color: #fafafa;
+}
+.star-li5{
+    margin-right: 0;
+    width:246px;
+    height:340px;
+    float: left;
+    background-color: #fafafa;
+}
+.star-li1{
+    border-top: 1px solid cyan;
+}
+.star-li2{
+    border-top: 1px solid chartreuse;
+}
+.star-li3{
+    border-top: 1px solid fuchsia;
+}
+.star-li4{
+    border-top: 1px solid rgba(255,97,20,0.93);
+}
+.star-li5{
+    border-top: 1px solid rgba(233,255,42,0.93);
+    /*margin-left: 60px;*/
+    /*display: block;*/
+}
+
+.star-list li img{
+    width:160px;
+    height:160px;
+    display: block;
+    margin-left:31px;
+}
+/*li的属性已经定好，怎么改变其中单独一个li的属性呢*/
+.star-list li h3{
+    color:black;
+    text-align: center;
+}
+.star-list li .seco{
+    height: 18px;
+    font-size: 12px;
+    margin:0 12px 10px;
+    text-overflow: ellipsis;
+    text-align: center;
+    color:#b0b0b0;
+}
+.star-list li .third{
+    text-align: center;
+    color:rgba(255,165,34,0.93)
+}
+.right2 .item-a:hover{
+    /*font-size: 30px;*/
+    color:rgb(255,97,20);
+    text-decoration: underline;
+}
+/*.nav-list .item-a:hover{*/
+    /*!*font-size: 30px;*!*/
+    /*color:rgb(255,97,20);*/
+    /*text-decoration: underline;*/
+/*}!*颜色效果无效？？*!*/
+/*.goods{*/
+    /*display: inline-block;*/
+/*}*/
+.goods{
+    position:relative;
+    /*width:1366px;*/
+    left:0;
+    /*width: 100%;*/
+    height: 2400px;
+
+   margin-left:0;
+    background-color: #f5f5f5;
+}
+/*.home-ele{*/
+    /*!*position: relative;*!*/
+    /*position: absolute;*/
+    /*top:19px;*/
+
+/*}*//*不注释掉vedio的会补位过来*/
+.home-ele,.intell{
+    position: relative;
+    height:660px;
+    margin-left:72px;
+    margin-top:80px;
+
+}
+.home-ele .home-ele-title,.intell .intell-title{
+    height: 20px;
+    font-size: 20px;
+    font-weight: 200;
+    line-height: 20px;
+
+    /*font-size: 22px;*/
+    /*font-weight:200;*/
+    /*line-height: 58px;*/
+    margin:35px 0 0 0;
+}
+
+
+
+.home-ele-span,.intell-span{
+    position:relative;
+}
+.home-ele-span .span4,.intell-span .intell-span4{
+    width:234px;
+    height:634px;
+    float: left;
+    /*background-color: white;*/
+    margin: 10px 10px 3px;
+}
+.home-ele-span li:hover,.intell-span li:hover{
+    box-shadow: 5px 5px 2px #e0e0e0;
+    top:-2px;
+    z-index: 2;
+    /*-moz-box-shadow:10px 10px 5px #444;*/
+    /*-webkit-box-shadow:10px 10px 5px #444;*/
+}
+.span4 img{
+    position: absolute;
+    /*top:0;*//*??top为什么直接相对于container定位了*/
+    top: 20px;
+    left:0;
+    width:234px;
+    height:625px;
+    float: left;
+}
+.intell-span4 li{
+    heigth:300px;
+}
+.intell-span4 img{
+    /*position: relative;*/
+    /*!*top:0;*!!*??top为什么直接相对于container定位了*!*/
+    /*top: 20px;*/
+    left:0;
+    width:234px;
+    height:300px;
+        /*margin-bottom:12px;*/
+    padding-bottom:12px;
+
+    /*float: left;*/
+}
+.intell-span4 ul{
+    list-style-type: none;
+    padding-left:0;
+    margin-top:10px;
+
+}
+.span4 img:hover{
+    box-shadow: 5px 5px 2px #e0e0e0;
+    top:18px;
+    z-index: 2;
+}
+.span4 ul{
+    list-style-type: none;
+}
+.span16{
+    margin:0;
+}
+.span16-con-list{
+    list-style-type: none;
+    margin-left: 4px;
+}
+.span-nav-ch{
+    position:absolute;
+    left:173px;
+    /*margin-right:20px;*/
+    /*width:16px;*/
+    /*height:16px;*/
+    font-size: 20px;
+}
+.span16 li{
+    position: relative;/*不写的话,.top的absolute是对于再往上的父元素进行定位*/
+    width: 236px;
+    height:300px;
+    float: left;
+    margin-right: 8px;
+
+    margin-top:20px;
+    /*padding:0 8px 3px 5px;*/
+    background-color: white;
+}
+.span16-img{
+   margin: 20px auto 18px;
+    /*display: block;*/
+}
+.span16-con-list img{
+
+    width: 150px;
+    height:156px;
+
+    margin-left:38px;
+}
+.span16-con-list .top{
+    position:absolute;
+    top:0;
+    left:36%;
+    width:64px;
+    text-align: center;
+    height:20px;
+    font-size:10px;
+    color:white;
+    background-color: rgba(238,113,9,0.96);
+}
+.page1 img{
+    margin-top:40px;
+
+}
+.span16-con-list h3{
+    color:black;
+    text-align: center;
+    font-size:15px;
+    font-weight: 100;
+}
+.span16-con-list .seco{
+    height: 18px;
+    font-size: 12px;
+    margin:0 12px 10px;
+    text-overflow: ellipsis;
+    text-align: center;
+    color:#b0b0b0;
+}
+.span16-con-list  .third{
+    text-align: center;
+    color:rgba(255,165,34,0.93)
+}
+
+.span16-con-list .li1-none{
+    display:none;
+    position:absolute;
+    bottom:0px;
+    width:100%;
+    height:60px;
+    text-align: center;
+    background-color:rgba(255,139,30,0.96);
+}
+
+.intell-li1-none{
+    display:none;
+    position:absolute;
+    bottom:0px;
+    width:100%;
+    height:60px;
+    text-align: center;
+    background-color:rgba(255,139,30,0.96);
+}
+#span16-li8,#span16-li9,#intell-span-8,#intell-span-9{/*.span16-li8不行？？*/
+    width: 234px;
+    height: 150px;
+    margin-top: 10px;
+    /*之前li的属性定义好了，上面用类选择器不能再度更改单个li属性，可是这里的id选择器可以单独更改*/
+
+}
+
+.span16-li8 img{
+    position:absolute;
+    top:40px;
+    left:112px;
+    width:80px;
+    height: 80px;
+    vertical-align: middle;
+
+}
+.span16-li9 img{
+    position:absolute;
+    top:40px;
+    left:112px;
+    width:80px;
+    height:80px;
+    vertical-align: middle;
+}
+.span16-li8 h3,.span16-li9 h3{
+    position: absolute;
+    top:40px;
+    left:20px;
+    color:black;
+
+}
+.span16-li8 p,.span16-li9 p{
+
+    position: absolute;
+    top:80px;
+    left:20px;
+}
+
+
+.vedio1{
+    /*position:relative;*/
+    width:1226px;
+    height: 290px;
+    margin-top: 50px;
+}
+.content{
+    width:1226px;
+    height: 420px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left:72px;
+
+}
+/*.vedio-list{*/
+    /*position: absolute;*/
+    /*top:3px;*/
+/*}*/
+
+.vedio-list > ul,.content-list > ul{
+    /*position: relative;*/
+    list-style-type: none;
+    height:410px;
+    padding-left: 0;
+    padding-right:0;
+}
+
+.content-ul > li{
+     position: relative;
+     float: left;
+     width:296px;
+     height:410px;
+    background-color: white;
+
+     margin-left:10px;
+ }
+.vedio-list li{
+    position: relative;
+    float: left;
+    width:296px;
+    height:280px;
+    background-color: white;
+
+    margin-left:10px;
+}
+.content-li1{
+    border-top:1px solid rgba(255,97,20,0.96);
+}
+.content-li2{
+    border-top:1px solid rgba(115,255,40,0.96);
+}
+.content-li3{
+    border-top:1px solid rgba(255,42,47,0.96);
+}
+.content-li4{
+    border-top:1px solid rgba(255,31,248,0.96);
+}
+.content-li2 h5{
+    color:rgba(115,255,40,0.96);
+    text-align: center;
+    font-size:16px;
+    font-weight: 400;
+}
+.content-li3 h5{
+    color:rgba(255,42,47,0.96);
+    text-align: center;
+    font-size:16px;
+    font-weight: 400;
+}
+.content-li4 h5{
+    color:rgba(255,31,248,0.96);
+    text-align: center;
+    font-size:16px;
+    font-weight: 400;
+}
+.content-li1 h5{
+    color:rgba(255,97,20,0.96);
+    text-align: center;
+    font-size:16px;
+    font-weight: 400;
+}
+.content-list img{
+    position:absolute;
+    top:50%;
+    left:15%;
+
+}
+.page1{
+    position:absolute;
+    top:0;
+    left:0;
+    width:296px;
+    height:340px;
+}
+.pager{
+    position: absolute;
+    bottom: 15px;
+    left:0;
+    width:296px;
+    height:30px;
+    /*margin-top:400px;*/
+    z-index: 555;
+}
+.pager-list{
+    /*width:296px;*/
+    /*height:30px;*/
+    /*left:40%;*/
+    padding-left:100px;
+    list-style-type: circle;
+    /*pdding-right:70px;*/
+    /*margin-right:auto;*/
+    /*margin-left:auto;*/
+}
+.pager li{
+   display: inline-block;
+    width: 10px;
+    height:10px;
+    margin-left:8px;
+    /*font-size: 20px;*/
+    color:rgba(238,105,20,0.96);
+}
+#page2,#page3{
+    display: none;
+}
+/*.content-list .h5{*/
+    /*text-align:center;*/
+    /*color:rgba(255,97,20,0.96);*/
+/*}*/
+.dot{
+    /*list-style-type: none;*/
+    display: block;
+    width:6px;
+    height:6px;
+    border:2px solid  rgba(238,105,20,0.96);
+    border-radius: 6px;
+    text-algin:left;
+    text-indent: -9999em;
+    /*border-color: rgba(238,105,20,0.96);*/
+}
+.dot:hover{
+   width:8px;
+    height:8px;
+    color:rgba(238,90,16,0.96)
+}
+.content-list .p1{
+    text-align:center;
+    font-size: 20px;
+}
+.content-list .p2{
+    text-align:center;
+    color:#b0b0b0;
+    font-size:12px;
+}
+.content-list .p3{
+    text-align:center;
+    /*font-size: 16px;*/
+}
+.content-list li:hover{
+    box-shadow: 5px 5px 2px #e0e0e0;
+    margin-top:-2px;
+    z-index: 2;
+}
+.vedio-list li:hover{
+    box-shadow: 5px 5px 2px #e0e0e0;
+    margin-top:-2px;
+    z-index: 2;
+}
+.vedio-list img{
+    width:296px;
+    height:187px;
+}
+.vedio-list  .seco{
+    font-size:16px;
+    color:black;
+    text-align: center;
+}
+.vedio-list .seco:hover{
+    color:rgba(238,143,46,0.96)
+}
+.vedio-list  .third{
+    font-size:13px;
+    color:#b0b0b0;
+    text-align: center;
+}
+
+.sec-footer{
+    position: relative;
+    margin-top:100px;
+
+}
+.sec-footer-con{
+    width:1226px;;
+    height:300px;
+    margin-left:auto;
+    margin-right:auto;
+}
+.sec-footer-top{
+    padding:30px 0;
+    border-bottom:1px solid rgba(185,184,165,0.96);
+}
+.sec-footer-con .top-list{
+    list-style-type: none;
+
+}
+.sec-footer-con li{
+    float:left;
+    font-size: 16px;
+    width: 123px;
+    /*margin-right: 50px;*/
+    color: #616161;
+    padding:0 54px;
+    border-right:1px solid rgba(185,184,165,0.96);
+}
+.sec-footer-con li:hover{
+    color: rgba(238,113,9,0.96);
+}
+.sec-footer-con .nav-item5{
+    border:none;
+}
+.clear1{
+    clear: both;
+}
+/*如何让父元素自动适应子元素的高度*/
+.sec-footer-text{
+
+    width:1226px;
+    margin: 40px auto 20px;
+}
+.sec-footer-text .dl-list1{
+    width:160px;
+    float:left;
+    color: #616161;
+    margin-right: 30px;
+    
+
+}
+.dl-list1 dt:hover,.dl-list1 dd:hover{
+    color: rgba(238,128,16,0.96);
+}
+.dl-list1 dt{
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+.dl-list1 dd{
+    text-decoration: none;
+    margin:10px 0 0;
+    font-size: 12px;
+    color: rgba(81,73,64,0.96);
+}
+
+.text-right{
+    float:right;
+    text-align: center;
+    margin-right:40px;
+    padding-left:49px;
+    padding-right:20px;
+    border-left:1px solid rgba(185,184,165,0.96);
+}
+.text-right .p1{
+
+    font-size: 20px;
+    letter-spacing: 2px;
+    color: rgba(255,97,20,0.96);
+}
+
+.text-right .p2{
+    color: rgba(81,73,64,0.96);
+    font-size: 6px;
+}
+
+.contact{
+    border:2px solid rgba(238,128,16,0.96);
+    font-size: 14px;
+    width: 118px;
+    height:28px;
+    padding: 7px;
+    margin-top:30px;
+    color: rgba(238,113,9,0.96);
+}
+.contact:hover{
+    background-color: rgba(238,113,9,0.96);
+    color:white;
+}
+h2{
+    font-size:22px;
+    color:#333;
+    font-weight: 200;
+    line-height:58px;
+}
+
+/*.bg{*/
+    /*float: left;*/
+    /*width: 99%;*/
+    /*height: 2733px;*/
+/*}*/
+/*.star-li5{*/
+    /*position: absolute;*/
+    /*right:0;*/
+    /*margin-left:10px;*/
+/*}*/
+.footer{
+    width:1226px;
+    margin-left:auto;
+    margin-right:auto;
+}
+.footer .footer-con{
+    margin-top:10px;
+}
+
+.footer-con .logo{
+    float: left;
+    width:57px;
+    height:57px;
+    margin-right:14px;
+}
+.footer-con .text{
+    float:left;
+    color:#b0b0b0;
+
+}
+.footer-con .p1{
+    line-height:18px;
+}
+.footer-con .p2{
+    margin-top: -10px;
+    line-height:12px;
+    font-size:8px;
+    /*margin:0;*/
+}
+.footer-bottom{
+    clear:both;
+    position:relative;
+    left:37%;
+
+    bottom: 5px;
+    font-size:26px;
+    font-family: 楷体;
+    color:#b0b0b0;
+    /*display: inline-block;*/
+
+}
+.text-img{
+    float:right;
+    /*margin-left:20px;*/
+}
+
+.text-img img{
+    width:376px;
+    height:72px;
+
+}
