@@ -1,15 +1,33 @@
 ---
 layout: post
-title: "Malaysia: Free swimming"
+title: Js原型对象的学习
 img: malaysia.jpg # Add image post (optional)
 date: 2017-07-08 12:53:00 +0300
-description: You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. # Add post description (optional)
+description: Js原型对象的学习，联系到java中对象,两者尽管没有什么关系，但思想不同之处还是需要注意的. # Add post description (optional)
 tag: [Travel, Malaysia, Blogging]
 ---
-Flexitarian hella quinoa, stumptown chillwave squid heirloom pop-up church-key. Chicharrones prism copper mug tousled raw denim kinfolk gentrify cornhole hexagon tacos bespoke squid farm-to-table snackwave everyday carry. Vaporware chicharrones activated charcoal jianbing pok pok. Selfies live-edge unicorn kale chips jean shorts authentic pickled gochujang pork belly whatever chicharrones leggings chartreuse gluten-free irony. Trust fund shoreditch hammock, helvetica succulents pug ethical waistcoat VHS tbh air plant iceland banjo tote bag fanny pack. Ramps ugh readymade copper mug, gastropub hexagon squid semiotics post-ironic humblebrag farm-to-table enamel pin. Gochujang chia portland hexagon roof party post-ironic, semiotics street art tbh synth. Air plant vinyl sustainable pork belly. Chicharrones cronut raw denim listicle flexitarian franzen. Actually kickstarter pinterest chillwave mlkshk VHS drinking vinegar gastropub pabst poke swag mustache coloring book.
+学习js原型对象时总想跟java类进行比较，可能因为当初java给人最大的印象就是面向对象编程了。当然其实这俩语言是真的没关系，不过你非要说所有编程语言都有着那一丝丝的联系我也没招。
+java因为类的存在，是基于模板的面向对象，类肯定是不能当方法来运行的，调用其内部静态方法或继承父类方法。
 
-Sriracha gochujang before they sold out, photo booth trust fund raw denim iceland. Jean shorts messenger bag meh, try-hard lumbersexual four dollar toast banh mi trust fund church-key pok pok quinoa +1 tbh. Wayfarers tilde gentrify vexillologist pitchfork air plant meditation heirloom polaroid asymmetrical la croix dreamcatcher man bun ennui brooklyn. Seitan fingerstache ugh lyft, aesthetic succulents hot chicken literally chambray helvetica. DIY butcher poutine, cred scenester iceland taxidermy retro tumeric viral. Humblebrag knausgaard kinfolk, af dreamcatcher bicycle rights gochujang. Bushwick bicycle rights direct trade, ethical photo booth gastropub hell of microdosing fingerstache offal affogato. Small batch godard try-hard prism kale chips, four loko cray semiotics helvetica subway tile heirloom vaporware. Venmo VHS keytar succulents chambray.
+而js是基于原型对象的语言，甚至不能讲“面向对象”这种概念，它可以扮演两种角色：
+1->将原型对象本身作为方法来使用，那么万物皆对象=》万物皆方法体;
+2->模仿面向对象的特性，为原型对象定义属性，然后通过运用构造器，将构造器构造出的对象的指针通过原型链指向原型对象的属性。
+来看一下下面的代码：
+    
+    function fun(){
+              //添加两个属性
 
-> Brunch hella poutine authentic farm-to-table. Stumptown craft beer lomo, heirloom single-origin coffee synth PBR&B post-ironic. <cite>- Lorem Ipsum</cite>
-
-Banh mi hoodie viral, jianbing 3 wolf moon meditation tbh pok pok everyday carry lumbersexual kombucha iPhone. Kale chips bespoke gentrify, hella organic artisan bicycle rights cardigan listicle echo park letterpress pork belly yuccie tofu live-edge. Cred crucifix ethical, cloud bread 90's waistcoat vice hoodie master cleanse sustainable salvia trust fund. Ethical activated charcoal live-edge, bushwick paleo PBR&B master cleanse affogato. Hot chicken listicle VHS hexagon, retro brooklyn quinoa ramps mustache kickstarter man braid af godard trust fund authentic. Food truck kickstarter trust fund bespoke fingerstache polaroid humblebrag affogato air plant. Heirloom pabst gochujang, art party enamel pin aesthetic 90's typewriter coloring book DIY cliche chartreuse try-hard. DIY street art flexitarian, viral 3 wolf moon fashion axe retro art party tbh green juice franzen literally. Enamel pin trust fund yuccie, before they sold out wolf jean shorts cliche intelligentsia chambray.
+        this.pro1="value1";
+        this.pro2="value2";
+        
+        //部分可自动执行的代码
+        alert("原型对象中的代码！");
+        }
+        //原型对象当做方法来用
+        fun();
+        /*方法体构造时内部代码执行了
+        一遍，并且构造出的实例对象通过
+        原型链的生成可以访问原型对象的属性*/
+        alert(new fun().pro1);
+        //
+这种允许混杂的现象在java类中是绝对不允许的，而这也能体现js是基于原型对象，而不能称为绝对规范的完全面向对象。js通过借用面向对象的思想设计出这种编程语言，其灵活性有目共睹，这种弱类型的语言也是我所喜欢的。
