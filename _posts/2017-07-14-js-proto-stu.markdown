@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "Texas: Grand Canyon"
+title: "Js原型对象"
 img: canyon.jpg # Add image post (optional)
-date: 2017-07-12 12:54:00 +0300
-description: You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. # Add post description (optional)
+date: 2017-07-14 12:54:00 +0300
+description: Js原型对象学习，联系java面向对象，两者虽然五关，但编程思想的区别需要注意. # Add post description (optional)
 tag: [Travel, Texas, Canyon]
 ---
 学习js原型对象时总想跟java类进行比较，可能因为当初java给人最大的印象就是面向对象编程了。当然其实这俩语言是真的没关系，不过你非要说所有编程语言都有着那一丝丝的联系我也没招。
