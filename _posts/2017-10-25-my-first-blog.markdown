@@ -7,23 +7,8 @@ description: You’ll find this post in your `_posts` directory. Go ahead and ed
 tag: [Sweden, Travel, Forest]
 ---
 
-camel标记法
-jquery不包含色彩动画
-There is no place like 127.0.0.1
-这些就是本我和自我的关系
-我们每个人都能叫“我”，就是每台机器都是127.0.0.1
-但是我们每个人都有自己的特征来确定“独一的我”，就是IP
-
-hosts
-内网ip
-外网ip
-本机地址  环回地址
-
-html容错机制
-html解析
-html css js 解析顺序过程
-you calls library
-framework calls you
-
-![](~/TIM图片20170509184655.jpg)
+博客第一次搭出来，暂时借用jekyll开源的框架，后续会继续完善，
+增加评论等功能
+下面是用js写的动画简历，为应聘准备的，代码已上传github。
+This is my [resume:link](http://www.frenkiss.site/resume-master/intro.html)
 
