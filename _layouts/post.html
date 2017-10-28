@@ -16,7 +16,7 @@ layout: default
     </header> <!-- End Header -->
 
     <div class="entry_content">
-      {{ markdownify | page.content }}
+      {{page.content | markdownify}}
     </div>
     
     <div class="post_wrapper">
