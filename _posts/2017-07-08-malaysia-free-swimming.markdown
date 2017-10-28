@@ -1,10 +1,10 @@
 ---
 layout: post
-title: Js原型对象的学习
+title:"Js原型对象的学习"
 img: malaysia.jpg # Add image post (optional)
 date: 2017-07-08 12:53:00 +0300
 description: Js原型对象的学习，联系到java中对象,两者尽管没有什么关系，但思想不同之处还是需要注意的. # Add post description (optional)
-tag: [Travel, Malaysia, Blogging]
+tag: [JavaScript,java,prototype]
 ---
 学习js原型对象时总想跟java类进行比较，可能因为当初java给人最大的印象就是面向对象编程了。当然其实这俩语言是真的没关系，不过你非要说所有编程语言都有着那一丝丝的联系我也没招。
 java因为类的存在，是基于模板的面向对象，类肯定是不能当方法来运行的，调用其内部静态方法或继承父类方法。
