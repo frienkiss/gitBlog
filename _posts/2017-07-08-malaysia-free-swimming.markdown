@@ -1,6 +1,6 @@
 ---
 layout: post
-title:"Js原型对象的学习"
+title: Js原型对象的学习
 img: malaysia.jpg # Add image post (optional)
 date: 2017-07-08 12:53:00 +0300
 description: Js原型对象的学习，联系到java中对象,两者尽管没有什么关系，但思想不同之处还是需要注意的. # Add post description (optional)
