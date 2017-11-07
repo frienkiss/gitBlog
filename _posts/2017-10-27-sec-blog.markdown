@@ -1,34 +1,37 @@
 ---
 layout: post
-title: "second js blog"
+title: "Js call,apply方法"
 img: himalayan.jpg # Add image post (optional)
 date: 2017-10-27 12:55:00 +0300
 description: You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. # Add post description (optional)
-tag: [Travel, Blogging, Mountains]
+tag: [Js,call,函数]
 ---
-学习js原型对象时总想跟java类进行比较，可能因为当初java给人最大的印象就是面向对象编程了。当然其实这俩语言是真的没关系，不过你非要说所有编程语言都有着那一丝丝的联系我也没招。
-java因为类的存在，是基于模板的面向对象，类肯定是不能当方法来运行的，调用其内部静态方法或继承父类方法。
+在学习js对象的方法时，接触到函数的call，apply, bind方法，虽然之前也遇到过有关于它们的例子，但都不怎么理解，为什么会有这样的方法存在。
+在csdn，博客园等等网站上浏览了各位前辈的解析，稍微整理了下：
+ 
+ 首先call方法是用来干嘛的，为什么会设计这种方法？有这样一段解释：为了改变某个函数运行时的context即上下文存在的，似乎并没读懂，好吧，就是为了改变函数内部this的指向的。
+ 这里强调一点：js的函数是存在这样一种概念：定义时上下文、运行时上下文、上下文是可改变的。
+ call和apply两者的作用是一样的，就接收参数的方式不一样，举个例子：
+                    var fun1=function(arg1,arg2){};
+函数fun1定义如上，我们可以通过 fun1.call(this,1,2)或者fun1.apply(this,[1,2])来调用，其中this是你想指定的上下文（执行环境），它可以是任何一个js对象。
+通过上面可以看出，call只需要把参数按照顺序传进去，而apply需把参数放在数组里再传进去
+js中某个函数的参数数量是不固定的，因此要说适应条件的话，参数数量已知情况下用call，不确定时用apply，把参数push进数组然后传进去。当参数数量不确定时函数内部可通过arguments这个数组来便利所有参数。
 
-而js是基于原型对象的语言，甚至不能讲“面向对象”这种概念，它可以扮演两种角色：
-1->将原型对象本身作为方法来使用，那么万物皆对象=》万物皆方法体;
-2->模仿面向对象的特性，为原型对象定义属性，然后通过运用构造器，将构造器构造出的对象的指针通过原型链指向原型对象的属性。
-来看一下下面的代码：
-    
-    function fun(){
-              //添加两个属性
+常用实例：
+1.       function add(a,b)
+2.      {
+3.       alert(a+b);
+4.       };
+5.      function sub(a,b)
+6.       {
+7.          alert(a-b);
+8.      };
+9.   add.call(this,1,2);//3
+9.   add.call(sub,1,2);//
 
-        this.pro1="value1";
-        this.pro2="value2";
-        
-        //部分可自动执行的代码
-        alert("原型对象中的代码！");
-        }
-        //原型对象当做方法来用
-        fun();
-        /*方法体构造时内部代码执行了
-        一遍，并且构造出的实例对象通过
-        原型链的生成可以访问原型对象的属性*/
-        alert(new fun().pro1);
-        //
-这种允许混杂的现象在java类中是绝对不允许的，而这也能体现js是基于原型对象，而不能称为绝对规范的完全面向对象。js通过借用面向对象的思想设计出这种编程语言，其灵活性有目共睹，这种弱类型的语言也是我所喜欢的。
+运行结果为3；即将add方法执行的上下文从window变成了sub，add方法中的this指向了sub
+js中的函数其实是对象，函数名是对Function对象的引用。
+
+
+
        
