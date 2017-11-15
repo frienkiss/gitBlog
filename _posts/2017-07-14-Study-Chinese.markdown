@@ -1,7 +1,10 @@
 ---
-date: 2017-07-14 21:35
-status: public
-title: 汉语言学习---1
+layout: post
+title: "汉语言文化学习"
+img: himalayan.jpg # Add image post (optional)
+date: 2017-07-14 12:55:00 +0300
+description: 汉语言发展，诗词歌赋，每一个字，每一对词都有它独特的魅力. # Add post description (optional)
+tag: [汉语言,诗词,文化]
 ---
 
 曰：有服章之美，谓之华；礼仪之邦，谓之夏。此为华夏！
