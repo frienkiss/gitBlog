@@ -1,15 +1,15 @@
 ---
 layout: post
-title: "My first trip: The wonderful Himalayan"
+title: "信客"
 img: himalayan.jpg # Add image post (optional)
 date: 2017-07-12 12:55:00 +0300
-description: You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. # Add post description (optional)
-tag: [Travel, Blogging, Mountains]
+description: 无奈帮朋友读的一本书，但读后却想写个闲言碎语 # Add post description (optional)
+tag: [赎罪, 舆论, 社会]
 ---
-Flexitarian hella quinoa, stumptown chillwave squid heirloom pop-up church-key. Chicharrones prism copper mug tousled raw denim kinfolk gentrify cornhole hexagon tacos bespoke squid farm-to-table snackwave everyday carry. Vaporware chicharrones activated charcoal jianbing pok pok. Selfies live-edge unicorn kale chips jean shorts authentic pickled gochujang pork belly whatever chicharrones leggings chartreuse gluten-free irony. Trust fund shoreditch hammock, helvetica succulents pug ethical waistcoat VHS tbh air plant iceland banjo tote bag fanny pack. Ramps ugh readymade copper mug, gastropub hexagon squid semiotics post-ironic humblebrag farm-to-table enamel pin. Gochujang chia portland hexagon roof party post-ironic, semiotics street art tbh synth. Air plant vinyl sustainable pork belly. Chicharrones cronut raw denim listicle flexitarian franzen. Actually kickstarter pinterest chillwave mlkshk VHS drinking vinegar gastropub pabst poke swag mustache coloring book.
-
-Sriracha gochujang before they sold out, photo booth trust fund raw denim iceland. Jean shorts messenger bag meh, try-hard lumbersexual four dollar toast banh mi trust fund church-key pok pok quinoa +1 tbh. Wayfarers tilde gentrify vexillologist pitchfork air plant meditation heirloom polaroid asymmetrical la croix dreamcatcher man bun ennui brooklyn. Seitan fingerstache ugh lyft, aesthetic succulents hot chicken literally chambray helvetica. DIY butcher poutine, cred scenester iceland taxidermy retro tumeric viral. Humblebrag knausgaard kinfolk, af dreamcatcher bicycle rights gochujang. Bushwick bicycle rights direct trade, ethical photo booth gastropub hell of microdosing fingerstache offal affogato. Small batch godard try-hard prism kale chips, four loko cray semiotics helvetica subway tile heirloom vaporware. Venmo VHS keytar succulents chambray.
-
-> Brunch hella poutine authentic farm-to-table. Stumptown craft beer lomo, heirloom single-origin coffee synth PBR&B post-ironic. <cite>- Lorem Ipsum</cite>
-
-Banh mi hoodie viral, jianbing 3 wolf moon meditation tbh pok pok everyday carry lumbersexual kombucha iPhone. Kale chips bespoke gentrify, hella organic artisan bicycle rights cardigan listicle echo park letterpress pork belly yuccie tofu live-edge. Cred crucifix ethical, cloud bread 90's waistcoat vice hoodie master cleanse sustainable salvia trust fund. Ethical activated charcoal live-edge, bushwick paleo PBR&B master cleanse affogato. Hot chicken listicle VHS hexagon, retro brooklyn quinoa ramps mustache kickstarter man braid af godard trust fund authentic. Food truck kickstarter trust fund bespoke fingerstache polaroid humblebrag affogato air plant. Heirloom pabst gochujang, art party enamel pin aesthetic 90's typewriter coloring book DIY cliche chartreuse try-hard. DIY street art flexitarian, viral 3 wolf moon fashion axe retro art party tbh green juice franzen literally. Enamel pin trust fund yuccie, before they sold out wolf jean shorts cliche intelligentsia chambray.
+   《信客》虽短，但却是我看过小说中，最能让我联想到当代社会的现象。里面有很多语句都是如此发人深省，总让人感到可悲时还有点自卑。
+“他们和大多数中国民众一样，历来相信，谁被“揭发了”，谁就有罪。他们本能地站在揭发者一边，让对方顷刻之间便走投无路，成为过街老鼠。”我不能太过理解老信客当时的心情，对于他来说，过多的解释都是掩饰，因为对于村民来讲，他“做手脚”已成事实，而他们从不想过要弄清前因后果，他们只认定他们愿意相信的结果，就将一个好人定罪，“拘捕”了他，而这样，老信客又能怎样，找证据？确实他努力过，虽然没有找到，但我觉得即使找到了，那些人就会承认自己错了吗?不，我觉得最可怕的就是，一个人做错事，大家觉得他承认错误就是应该的，而当大家都错的时候，他们便彼此心照不宣，对曾经的错误视而不见，也对，大家都视而不见时，还会有谁去追究呢？老信客吗？他已经离开了，留下的只是他在路上的脚印，记载着当初奔波于两地的伟绩。
+毁一个棚、毁一个笼、毁一个缸都没有那么快，毁棚、毁笼、毁缸至少还需要一锤锤敲，一点点拆，毁人不用那么麻烦，几张嘴一递送，就完成了。真的，人对人的清除能力，实在是不可思议。
+老信客走了，在村民的讨伐声中离去了，他没有过多的抱怨，反而为他们考虑，因为两地的人们还需要信客，一个新的信客，传递着感动与思念的信客，故事的另一个主人公，宋达，当老信客向宋达介绍具体情况时，我深深地震撼了，信客才是最熟知各人的脾气和习惯的人，就像一盏灯，能照进每个人心房。宋达踏上了师傅的老路，一步步，一家家，成为了大家熟知的信客，正如他师傅当年一样，为人所敬佩。而这时的他才明白，信客的职责，他们肩上挑的不仅仅是货品，而是家家户户的死生祸福。
+而老信客得到了新的工作——守墓人，在其位，谋其政，不管做什么工作，都能井井有条，所为人称赞，这确实值得我们现在的人学习，我们一直在希望得到更好的，什么是更好的？？当我们身处在自己角色时，都未做好的人，却奢望着得到另一个角色，那些一直抱怨社会不公平的人，抱怨自己职业的人，我不明白他们是否做好了自己，我们可以有目标，又更好的追求，但我们是否在追求的途中，踏下每一步，就像信客一样，一脚一脚踏出了自己的骄傲。
+这篇小说很短，但每看几页，我都需要停下来消化，不只是消化书中的语句，而是审视自己，是否做错，是否做对？故事的结局倒是挺让我惊叹的，当初可以证明老信客清白的那个记号，改变了一切的这个小圈圈，尽管看起来并不那么显眼却断送了老信客的大半辈子，断送了他与村庄的情分，断送了这一路的情分，将他圈在了深山墓地，圈出了人世之外。但是却成就了另一个女性，它承载着罪责，却又承担着光荣，我们不能对此进行太过理性的分析，毕竟我们不是当事人，更不能分析，因为历史的疑问实在太大，我们只能做好现在。
+其实，大家都是信客，有着自己的信客之路。
