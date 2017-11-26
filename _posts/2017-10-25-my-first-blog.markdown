@@ -11,4 +11,5 @@ tag: [Sweden, Travel, Forest]
 增加评论等功能
 下面是用js写的动画简历，为应聘准备的，代码已上传github。
 This is my [resume:link](http://www.frenkiss.site/resume-master/intro.html)
+and [bootstrap_test:link](http://www.frenkiss.site/项目/bootstrap.html)
 
