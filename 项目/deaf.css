@@ -1,0 +1,6 @@
+/*导航条*/
+#nav_right .nav_border {
+    width: 20px;
+    height: 25px;
+    border-radius: 20%;
+}
