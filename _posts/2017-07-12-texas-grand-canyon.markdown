@@ -1,10 +1,10 @@
 ---
 layout: post
-title: "Texas: Grand Canyon"
+title: "同步、异步、回调"
 img: canyon.jpg # Add image post (optional)
 date: 2017-07-12 12:54:00 +0300
-description: You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. # Add post description (optional)
-tag: [Travel, Texas, Canyon]
+description: 同步异步回调执行顺序 # Add post description (optional)
+tag: [异步, js, 面试]
 ---
 同步、异步、回调，本身没有明确分的这么细致，最近在做面试题时候，发现这个，很多时候知道具体执行顺序，但原理不甚了了。
 
@@ -20,9 +20,11 @@ tag: [Travel, Texas, Canyon]
 
 有一道经典的面试题：
 
-      for (var i = 0; i < 5; i++) {
-          setTimeout(function() {
-              console.log('i: ',i);
+      for (var i = 0; i < 5; i++)
+      {
+         setTimeout(function()
+         {
+           console.log('i: ',i);
           }, 1000);
       }
 
