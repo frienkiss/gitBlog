@@ -1,9 +1,5 @@
 logo:  # add logo name
-<<<<<<< HEAD
 title: 啵啵的随笔小栈
-=======
-title: '啵啵的随笔小栈'
->>>>>>> 633fbb5347278da2a45b34d220d3680dd0af7faa
 
 description: > # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
